@@ -1,0 +1,16 @@
+{
+  "ENV_MODE": "test",
+  "minPasswordLength": 6,
+  "maxLength": 200,
+  "maxPhoneNumber": 99999999999999999999,
+  "dev": {
+    "API_URL": "http://52.65.239.225:2083/api/v1"
+  },
+  "test": {
+    "API_URL": "http://52.65.239.225:2083/api/v1"
+  },
+  "production": {
+    "API_URL": "http://52.65.239.225:2083/api/v1"
+  },
+  "googleMapKey": ""
+}

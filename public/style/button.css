@@ -1,0 +1,23 @@
+.btn-style {
+  padding: 16px 45px;
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 22px;
+  border-radius: 16px;
+font-style: normal;
+font-weight: 500;
+}
+.secondary-btn {
+  opacity: 0.8;
+  border: 2px solid rgba(36, 51, 88, 0.78);
+  border-radius: 16px;
+  color: rgba(36, 51, 88, 0.78);
+  background: transparent;
+}
+
+.primary-btn {
+  filter: drop-shadow(0px 4px 16px #FFCDBE);
+  background: #EE2E2A;
+  opacity: 0.8;
+}

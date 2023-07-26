@@ -1,0 +1,24 @@
+@import './mixin.scss';
+
+:root {
+  --primary-color: #ee2e2a;
+  --white-color: #ffffff;
+  --black-26: #262626;
+  --darkgray-75: #757679;
+  --lightgray-e0: #e0e0e0;
+}
+
+$primary-color: var(--primary-color);
+$black-23: var(--black-26);
+$white-color: var(--white-color);
+$darkgray-75: var(--darkgray-75);
+$lightgray-e0: var(--lightgray-e0);
+
+
+$Small-Desktop: 'only screen and (max-width : 1439px)';
+$Small-Laptop: 'only screen and (max-width: 1199px)';
+$IpadP: 'only screen and (max-width : 1023px)';
+$PhoneL: 'only screen and (max-width: 767px)';
+$PhoneS: 'only screen and (max-width: 540px)';
+$PhoneXS: 'only screen and (max-width: 359px)';
+$mobile-landscape-414: 'only screen and (min-device-width: 414px) and (max-device-width: 896px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape)';

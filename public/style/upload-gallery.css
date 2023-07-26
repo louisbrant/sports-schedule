@@ -1,0 +1,111 @@
+.rug .rug-handle:before {
+  width: calc(100%) !important;
+  height: calc(100%) !important;
+  border: 1px dashed #98B5FF !important;
+}
+
+.rug {
+  padding-bottom: 20px; 
+  font-family: 'Nunito', sans-serif; 
+}
+
+.rug .rug-handle .rug-handle-info .rug-handle-button {
+  background-color: #cccccc !important;
+  visibility: hidden;
+  font-size: 0px !important;
+  font-weight: 100;
+}
+
+.rug .rug-handle .rug-handle-info .rug-handle-button:hover {
+  background-color: #ee2e2a !important;
+}
+
+.rug .rug-handle .rug-handle-info .rug-handle-button::before {
+  content: "+";
+  visibility: visible;
+  background-color: #ee2e2a !important;
+  padding: 0;
+  font-size: 33px;
+  font-weight: 400;
+  color: #f5f5f5;
+  text-align: center;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 0 auto;
+  line-height: normal;
+}
+
+.rug .rug-items.__card {
+  display: none !important;
+  border: solid 1px #ccc;
+  margin: 1px !important;
+  margin-top: 20px !important;
+  padding: 10px !important;
+}
+
+.rug .rug-handle svg.rug-handle-icon polyline,
+.rug .rug-handle svg.rug-handle-icon line {
+  stroke: #dddddd !important;
+}
+
+.rug .rug-handle svg.rug-handle-icon {
+  width: 40px !important;
+}
+
+.rug .rug-handle .rug-handle-info .rug-handle-drop-text,
+.rug .rug-handle .rug-handle-info span {
+  color: #cccccc !important;
+  font-size: 16px !important;
+  padding-bottom: 10px;
+}
+
+.rug .rug-handle .rug-handle-info span {
+  display: none !important;
+}
+
+.gallery__image__box {
+  position: relative;
+}
+
+.gallery__image__box .gallery__image {
+  width: 140px;
+  height: 140px;
+  border-radius: 6px;
+  overflow: hidden;
+  cursor: pointer;
+  background: #f8f8fc;
+  border: 1px solid #e6ebf1;
+}
+
+.gallery__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery__image__box .gallery-image-delete-btn {
+  border: 1px solid #e6ebf1;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-color: #f8f8fc;
+  position: absolute;
+  bottom: -8px;
+  right: -8px;
+}
+
+.gallery__image__box .gallery-image-delete-btn:hover {
+  background-color: #ee2e2a;
+  color: #ffffff;
+}
+
+.rug .rug-handle {
+  height: 200px !important;
+}

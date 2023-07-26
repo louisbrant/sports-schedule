@@ -1,0 +1,72 @@
+@import '../../layout/variables.scss';
+
+.ListingcardcompStyles {
+  @include size($height:100%);
+  .Listingcardbox {
+    @include size(100%, 100%);
+    background-color: #e2e7dd;
+    padding: 25px 28px 24px 24px;
+    border: 1px solid rgba(28, 86, 12, 0.5);
+    box-shadow: 0px 4px 15px rgba(177, 177, 177, 0.15);
+    @include b-radius(6px);
+    min-height: 236px;
+    @media #{$PhoneL} { 
+      min-height: 180px;
+      padding: 20px;
+    }
+    .Listingcardelement {
+      .Listingcard__user {
+        @include d-flex();
+        .Listingcardimg {
+          @include size(60px, 60px);
+          @include b-radius(50%);
+          overflow: hidden;
+          margin-right: 16px;
+          flex: 0 0 60px;
+          img {
+            @include img(cover);
+          }
+          @media #{$PhoneL} { 
+            @include size(50px, 50px);
+            flex: 0 0 50px;
+          }
+        }
+        .Listingcardname {
+          h4 {
+            @include headline($black-26, 20px, 30px, 1px, 600);
+            @media #{$PhoneL} { 
+              font-size: 16px;
+              line-height: 24px;
+            }
+          }
+          .Team__designation {
+            @include text($darkgray-75, 16px, 400);
+            line-height: 27px;
+            margin-bottom: 16px;
+            @media #{$PhoneL} { 
+              font-size: 14px;
+              line-height: 21px;
+              margin-bottom: 14px;
+            }
+          }
+        }
+      }
+      p {
+        @include text($darkgray-75, 16px, 400);
+        line-height: 27px;
+        margin: 0;
+        @include d-block();
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        @media #{$PhoneL} { 
+          font-size: 14px;
+          line-height: 21px;
+          -webkit-line-clamp: 4;
+        }
+      }
+    }
+  }
+}

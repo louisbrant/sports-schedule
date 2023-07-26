@@ -1,0 +1,17 @@
+// reset booking status
+export const RESET_SUCCESS_STATUS = "RESET_SUCCESS_STATUS";
+
+// get bookings
+export const GET_BOOKINGS = "GET_BOOKINGS";
+export const GET_BOOKINGS_SUCCESS = "GET_BOOKINGS_SUCCESS";
+export const GET_BOOKINGS_FAILED = "GET_BOOKINGS_FAILED";
+
+// add booking
+export const ADD_BOOKING = "ADD_BOOKING";
+export const ADD_BOOKING_SUCCESS = "ADD_BOOKING_SUCCESS";
+export const ADD_BOOKING_FAILED = "ADD_BOOKING_FAILED";
+
+// delete booking
+export const DELETE_BOOKING = "DELETE_BOOKING";
+export const DELETE_BOOKING_SUCCESS = "DELETE_BOOKING_SUCCESS";
+export const DELETE_BOOKING_FAILED = "DELETE_BOOKING_FAILED";

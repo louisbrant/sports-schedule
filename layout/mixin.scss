@@ -1,0 +1,37 @@
+//text mixin
+@mixin text($color, $size, $weight) {
+    color: $color;
+    font-size: $size;
+    font-weight: $weight;
+}
+  
+//heading mixin 
+@mixin headline($color, $size, $lineheight, $bottom, $weight) {
+    color: $color;
+    font-size: $size;
+    line-height: $lineheight;
+    margin-bottom: $bottom;
+    font-weight: $weight;
+}
+
+//img mixin
+@mixin img($type) {
+    object-fit: $type;
+    height: 100%;
+    width: 100%;
+}
+
+@mixin b-radius($border-radius) {
+    border-radius: $border-radius;
+}
+
+//size mixin
+@mixin size($height: null, $width: null) {
+    height: $height;
+    width: $width;
+}
+
+@mixin fullsize($max-height: null, $max-width: null) {
+    max-height: $max-height;
+    max-width: $max-width;
+}

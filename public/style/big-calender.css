@@ -1,0 +1,37 @@
+.DayPicker-Day {
+  font-size: 16px !important;
+  margin: 5px !important;
+  border-radius: 0% !important;
+  height: 50px !important;
+  border: solid 2px #ffffff !important;
+}
+
+.DayPicker-Month {
+  width: 100% !important;
+}
+
+.DayPicker-Months {
+  width: 100% !important;
+}
+
+.DayPicker-wrapper {
+  display: flex;
+  width: 100% !important;
+}
+.DayPicker {
+  width: 100% !important;
+}
+
+.DayPicker-Weekday abbr[title] {
+  font-size: 18px !important;
+}
+
+.DayPicker-Day--today {
+  color: #ee2e2a !important;
+}
+
+.DayPicker-Day--selected,
+.DayPicker-Day--selected:not(.DayPicker-Day--disabled):not(.DayPicker-Day--outside) {
+  background-color: #ee2e2a !important;
+  color: #fff !important;
+}

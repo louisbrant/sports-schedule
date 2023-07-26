@@ -1,0 +1,837 @@
+.mr-60{
+    margin-right: 60px;
+}
+.mr-20{
+    margin-right: 20px;
+}
+.ml-20{
+    margin-left: 20px;
+}
+.pt-20{
+    padding-top: 20px;
+}
+
+/* COLORS */
+.primary{
+    color: #EE2E2A !important;
+}
+.primary_bg{
+    background-color: #EE2E2A !important;
+}
+
+.secondary_bg{
+    background-color: #243358 !important;
+}
+
+.secondary{
+    color: #243358 !important;
+}
+.secondary-light{
+    color: rgba(36, 51, 88, 0.8) !important;
+}
+.grey{
+    color: #A6A6A6;
+}
+.white{
+    color: #fff;
+}
+.wine_red{
+    color: #D81C67;
+}
+/* TYPOGRAPHY */
+.fs-14{
+    font-size: 14px;
+}
+.fs-18{
+    font-size: 18px !important;
+}
+.fs-20{
+    font-size: 18px !important;
+}
+
+.fs-24{
+    font-size: 24px !important;
+}
+
+.datePicker{
+    border: none !important;
+    width: 91% !important;
+    padding-top: 11px !important;
+}
+
+.datePicker:focus-visible{
+    box-shadow: none !important;
+}
+
+.ant-picker-focused, .ant-select-selector{
+    box-shadow: none !important;
+}
+
+.ant-select-selector{
+    border: none !important;
+    /* border-top: none !important;
+    border-left: none !important;
+    border-right: none !important; */
+    padding-left: 0 !important;
+}
+
+
+.timePicker input, .ant-select-selection-item{
+    font-size: 14px !important;
+}
+
+.description{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    padding-top: 32px;
+}
+.card-text{
+    font-style: normal;
+    font-weight: 700 !important;
+    font-size: 16px;
+    line-height: 29px;
+}
+.price{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+.card-description{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 180.02%;
+    color: rgba(36, 51, 88, 0.78);
+    opacity: 0.6;
+}
+
+.listing-card-heading h3, .Listing__title h3{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.listing-card-heading h4{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 29px;
+}
+
+.contactus__banner{
+    background: rgba(152, 181, 255, 0.06);
+    border-radius: 16px 0px 0px 16px;
+    width: 1213px;
+    height: 412px;
+    margin-left: auto;
+    margin-top: 80px;
+    margin-bottom: 220px;
+}
+.label{
+    font-size: 12px;
+    text-align: left;
+    padding-left: 22px;
+    margin-bottom: -16px;
+    position: relative;
+    top: 10px;
+    z-index: 99;
+}
+.label-img{
+    margin-left: 16px;
+    margin-right: -8px;
+    z-index: 99;
+}
+.joinus__block{
+    background: rgba(152, 181, 255, 0.06);
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    text-align: center;
+}
+.join__container{
+    text-align: center;
+}
+.join__container h3{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    max-width: 100% !important;
+}
+.join__container h4, .empty__title h4{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 29px;
+    text-align: center;
+    max-width: 100% !important;
+    margin-top: 2rem !important;
+}
+.custom__graphic{
+    position: absolute;
+    right: 0;
+    margin-top: -11rem;
+}
+.custom__graphic1{
+    position: absolute;
+    left: 0;
+    margin-top: -24rem;
+}
+.listing-ipt{
+    border-radius: 60px !important;
+    width: 95% !important;
+}
+.filters > .slider__contant{
+    box-shadow: none !important;
+    border: 1px solid rgba(36, 51, 88, 0.37);
+
+}
+.button-listings{
+    border-radius: 60px;
+    width: 40px;
+    margin-right: 1rem;
+}
+
+.filters{
+    justify-content: space-between;
+}
+.ipt1{
+    border-radius: 60px !important;
+    width: 40% !important;
+}
+.search{
+    background-color: #EE2E2A;
+    width: 32px !important;
+    height: 32px !important;
+    border-radius: 60px !important;
+    position: absolute;
+    left: 19rem;
+    margin-top: 9px;
+}
+.search .fa-search{
+    padding-left: 8px;
+    padding-top: 8px;
+    color: #fff;
+}
+.h-60{
+    max-height: 60px !important;
+}
+
+.wrapperClassName, .toolbarClassName, .editorClassName{
+    background-color: #f8f8fc !important;
+}
+
+.booking__modal{
+    position: absolute;
+    height: 100vh;
+    width: 70%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #fff;
+    padding: 16px;
+    z-index: 999;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.booking__header{
+    border-bottom: 1px solid #efefef;
+}
+
+.status__icon{
+    background: rgba(29, 151, 108, 0.56);
+    border: 2px solid #1D976C;
+    border-radius: 60px;
+    width: 16px;
+    height: 16px;
+}
+
+.booking__title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    height: auto;
+    color: rgba(36, 51, 88, 0.78);
+}
+
+.booking__label{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    height: auto;
+    color: rgba(36, 51, 88, 0.78);
+    opacity: .6;
+}
+
+/* CALENDAR EVENTS */
+
+.modal-field {
+    display: flex;
+    flex-direction: column;
+    margin: calc(16px) 0;
+}
+.modal-field:first-child {
+    margin-top: 0;
+}
+.modal-field:last-child {
+    margin-bottom: 0;
+}
+.modal-field input, .modal-field textarea {
+    padding: calc(16px / 4) 0;
+    color: red;
+    border: none;
+    border-bottom: 2px solid red;
+}
+.modal-field input:active, .modal-field textarea:active, .modal-field input:focus, .modal-field textarea:focus {
+    outline: none;
+    border-bottom: 2px solid red;
+}
+.modal-info {
+    font-size: 0.6em;
+}
+
+.calendar {
+    position: relative;
+    color: red;
+    background-color: #fff;
+    height: 100%;
+    max-width: 100%;
+    /* margin-left: auto;
+    margin-right: auto; */
+    width: 40rem;
+}
+.calendar .calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.6em;
+    margin: 8px 0;
+    padding: 16px 8px;
+    color: #243358;
+    font-weight: bold;
+}
+.calendar .header-selected-month {
+    flex: 1;
+    text-align: center;
+}
+.calendar .day-of-week {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 1px;
+    color: #243358;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    padding: 24px 0;
+}
+
+.calendar-day {
+    position: relative;
+    min-height: calc(16px * 3);
+    /* background-color: red; */
+    color: rgba(36, 51, 88, .5);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+}
+.calendar-day.is-current {
+    background-color: white;
+    color: #243358;
+}
+.calendar-day > * {
+    padding: calc(16px / 4);
+}
+.calendar-day button {
+    font-size: 100%;
+    font-family: inherit;
+    border: 0;
+    background-color: transparent;
+}
+.day-events {
+    margin: calc(16px / 4) 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    list-style: none;
+    width: 100%;
+    min-width: 0;
+}
+.day-event {
+    background-color: red;
+    padding: calc(16px / 8) calc(16px / 4);
+    margin: calc(16px / 4) 0;
+    border-radius: 16px;
+    font-size: 0.8em;
+    transition: all 0.3s;
+    transition-property: color, background-color;
+    pointer-events: none;
+}
+.day-event div {
+    white-space: nowrap;
+    overflow: hidden;
+}
+.is-current .day-event {
+    pointer-events: auto;
+}
+.is-current .day-event:hover {
+    background-color: red;
+    color: red;
+    cursor: pointer;
+}
+
+.calendar-days {
+    display: grid;
+    grid-template-columns: repeat(7, minmax(52px, 1fr));
+    gap: 2px;
+    height: 100%;
+    position: relative;
+    /* border: solid 2px red;
+    background-color: red; */
+    margin: 4px 0;
+  }
+
+  .day-of-month-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: inherit;
+    transition: all 0.3s;
+    transition-property: color, background-color, opacity, visibility;
+    pointer-events: none;
+}
+.day-of-month-wrapper:focus{
+    border: 0 !important;
+    outline: none !important;
+}
+.is-current .day-of-month-wrapper {
+    pointer-events: auto;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    padding: 8px;
+}
+.is-current .day-of-month-wrapper:hover {
+    background-color: rgba(238, 46, 42, .4);
+    color: red;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 8px;
+    width: 32px;
+    height: 32px;
+    margin-top: -3px;
+}
+.visible {
+    position: relative;
+    visibility: visible;
+    opacity: 1;
+}
+.invisible {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+}
+.day-of-month {
+    width: calc(16px / 2);
+    height: calc(16px / 2);
+    padding: calc(16px / 2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.is-today .day-of-month-text {
+    color: white;
+    border-radius: 50%;
+    padding: 16px;
+    background-color: #EE2E2A;
+    margin-top: -8px;
+}
+
+.header-action {
+    font-size: 100%;
+    font-family: inherit;
+    border: 0;
+    color: red;
+    padding: 4px 8px;
+    border-radius: 4px;
+    background-color: transparent;
+    transition: all 0.3s;
+    transition-property: color, background-color;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.header-action.icon-btn {
+    border-radius: 50%;
+    width: 1.6em;
+    height: 1.6em;
+        color: #243358;
+}
+.header-action:hover {
+    color: #fff;
+    background-color: red;
+}
+.header-action:focus-visible {
+    outline: 1px solid red;
+    outline-offset: -2px;
+}
+.header-action:active {
+    transform: scale(0.99);
+    background-color: red;
+}
+.header-action.action-previous {
+    grid-column: 0.3333333333;
+}
+.header-action.action-next {
+    justify-self: flex-end;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.25);
+    animation-name: appear;
+    animation-duration: 300ms;
+}
+.modal button {
+    font-size: 100%;
+    font-family: inherit;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: calc(16px / 2);
+    padding: calc(16px / 2) 16px;
+    transition: all 0.3s;
+    transition-property: color, background-color;
+}
+.modal button:disabled {
+    cursor: not-allowed;
+    background-color: red;
+    color: red;
+}
+.modal button:active {
+    transform: scale(0.99);
+}
+.modal .modal-close {
+    color: red;
+    padding: 4px 8px;
+    border-radius: 50%;
+    width: 1.6em;
+    height: 1.6em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal .modal-close:hover {
+    color: red;
+    background-color: red;
+}
+.modal .modal-action-delete {
+    background-color: red;
+    color: white;
+}
+.modal .modal-action-delete:hover {
+    background-color: red;
+}
+.modal .modal-action-cancel {
+    background-color: red;
+    border: 1px solid red;
+}
+.modal .modal-action-cancel:hover {
+    background-color: red;
+}
+.modal .modal-action-save {
+    background-color: red;
+    color: white;
+}
+.modal .modal-action-save:hover:not(:disabled) {
+    background-color: red;
+}
+.modal-main {
+    width: 100%;
+    max-width: 550px;
+    background: white;
+    position: relative;
+    margin: 0 20px;
+    max-height: calc(100vh - 40px);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 0 calc(16px / 2) 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: slide-in;
+    animation-duration: 0.5s;
+}
+.modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    border-bottom: 1px solid red;
+}
+.modal-title {
+    font-size: 1.2em;
+}
+.modal-subtitle {
+    margin: calc(16px / 2) 0;
+    font-size: 0.9em;
+    color: red;
+}
+.modal-body {
+    margin: 16px 0;
+    padding: 0 16px;
+    overflow: auto;
+}
+.modal-actions {
+    border-top: 1px solid red;
+    margin: 16px 0;
+    padding: 16px 16px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.modal-actions > button {
+    margin-left: calc(16px / 2);
+    color: inherit;
+}
+
+.event__manager{
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    height: 45vh;
+}
+
+.event__manager h3{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 24px;
+    color: #243358;
+}
+
+.event__manager h4{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #243358;
+}
+
+.event__manager h5{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #243358;
+    opacity: .5;
+}
+.border_left{
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.selected__day{
+    color: #EE2E2A;
+    border-radius: 50%;
+    padding: 24px;
+    background-color: #F3F7FF;
+    margin-top: -16px;
+    font-weight: bold;
+}
+
+.booking__mng__status{
+    background-color: #fff;
+    border-radius: 4px;
+    border-left: 4px solid #1D976C;
+    position: absolute;
+    z-index: 999;
+    left: 45rem;
+    width: 13rem;
+}
+
+.booking__mng__status h4{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #243358;
+}
+
+.booking__mng__status h5{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: #1D976C;
+}
+
+.viewCourtBtn a {
+    color: #EE2E2A !important;
+}
+
+.booked-slot {
+    padding: 0 !important;
+    border: none !important;
+    background: #DAEBE3 !important;
+}
+
+.booked-slot:first-child{
+    border-left: 4px solid #1D976C !important;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.booked-text{
+    position: absolute;
+    margin-left: 20px;
+    width: 100%;
+    z-index: 999;
+}
+
+.Listingcard__block{
+    display: flex !important;
+    flex-wrap: wrap !important;
+    width: 50% !important;
+}
+
+.Listingcard__block .card-container1{
+    margin-bottom: 24px !important;
+}
+
+.dropdown__container{
+    background-color: #fff;
+    border: 1px solid #efefef;
+    position: absolute;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: fit-content;
+    border-radius: 4px;
+    top: 3rem;
+    left: 1rem;
+    z-index: 999999;
+}
+
+.dropdown__item{
+    padding: 1rem 2rem;
+}
+
+.dropdown__item:last-child{
+    padding-top: 8px;
+}
+
+.dropdown__item:first-child{
+    padding-bottom: 8px;
+}
+
+.dropdown__item:hover{
+    background-color: rgba(238, 46, 42, .1);
+}
+
+.lastImg::after{
+    content: '\A';
+    position: absolute;
+    width: 100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.6);
+    opacity: 0;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+}
+
+.image__overlay{
+    position: absolute;
+    background: rgba(0,0,0,.6);
+    width: 256px;
+    height: 195px;
+    top: 14.7rem;
+    right: 29px;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.image_grid_overlay{
+    position: absolute;
+    background: rgba(0,0,0,.6);
+    width: 256px;
+    height: 195px;
+    top: 14.7rem;
+    right: 29px;
+    border-radius: 16px;
+}
+
+.timeSelect1 .ant-select-selector{
+    background: transparent !important;
+    margin-left: 1rem;
+}
+
+.listing-ipt{
+    padding-bottom: 0;
+    top: -0.2rem;
+    max-height: 40px;
+}
+
+.extraClass{
+    position: relative;
+    max-height: 41px;
+}
+
+.new_event:hover{
+    cursor: pointer;
+}
+
+.selectAtd .ant-select-selector{
+    background-color: #F3F7FF !important;
+    padding-left: 16px !important;
+    height: 40px !important;
+    margin: 8px;
+    margin-left: 12px;
+    padding-top: 5px !important;
+    border-radius: 4px !important;
+    border: 1px solid #d1dfff !important;
+}
+
+.selectAtd .ant-select-selection-search-input{
+    height: 40px !important;
+}
+
+.rc{
+    width: 400px !important;
+    height: 300px !important;
+}
+
+.times{
+    font-size: 14px !important;
+}
+
+.positionedTime{
+    position: relative;
+    top: 1.56rem;
+    right: 3.5rem;
+}
+
+.rc_body-cell_value button{
+    outline: 0 !important;
+}
+
+.rc_in_range .rc_body-cell_value{
+    background-color: #243358 !important;
+}
+.rc_in_range .rc_body-cell_value button{
+    color: #fff !important;
+}
+
+

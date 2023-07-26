@@ -1,0 +1,4 @@
+.image-dialog > .modal-dialog > .modal-content {
+  margin-left: -36% !important;
+  width: 160% !important;
+}
